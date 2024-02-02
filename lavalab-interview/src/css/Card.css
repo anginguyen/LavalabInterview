@@ -1,0 +1,41 @@
+.card {
+    background-color: #FEF9F8;
+    border: 1px solid #C8C8C8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 32px;
+    width: 22%;
+}
+
+.card-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card-logo {
+    height: 28px;
+    width: auto;
+}
+
+.card-button {
+    font-size: 12px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #C8C8C8;
+    border-radius: 5px;
+    padding: 5px;
+    width: 45%;
+}
+
+.card-button--selected {
+    color: #40713F;
+    background-color: #DFFDE0;
+    border-color: transparent;
+}
+
+.card-name {
+    font-size: 18px;
+}
