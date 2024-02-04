@@ -56,8 +56,8 @@ export default function Home() {
             </div>
 
             <div className='home-buttons'>
-                <button className='back-button'>Back</button>
-                <button className='finish-button'>Finish</button>
+                <button className='back-button' onClick={() => alert("Back button clicked")}>Back</button>
+                <button className='finish-button' onClick={() => alert("Finish button clicked")}>Finish</button>
             </div>
         </div>
     )

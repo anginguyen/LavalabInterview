@@ -45,3 +45,8 @@
     background-color: #1A1225;
     width: 60%;
 }
+
+.home-buttons .back-button:hover, 
+.home-buttons .finish-button:hover {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.75);
+}

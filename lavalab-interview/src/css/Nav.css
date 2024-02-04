@@ -15,8 +15,17 @@
     font-weight: 700;
 }
 
+.nav-profile-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.nav-profile-btn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+}
+
 .nav-profile-img {
     width: 45px;
     height: auto;
-    border-radius: 50%;
 }
